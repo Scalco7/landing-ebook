@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/favicon.png" />
+    <title>Eu quero shape</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- poppins - 800, 700, 600, 500, 400 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body class="col-12 d-flex flex-column align-items-center justify-content-start">
+    <div class="col-12 col-md-10 row screen-1">
+        <div class="col-md-6 desktop" id="box-titles">
+            <h1 class="title-top yellow">Você quer</h1>
+            <h1 class="title-top">ser mais</h1>
+            <h1 class="title-top">CONFIANTE?</h1>
+            <h1 class="title-top">FORTE?</h1>
+            <h1 class="title-top">REALIZADO?</h1>
+            <h1 class="title-top">MOTIVADO?</h1>
+            <h1 class="title-top">SAUDÁVEL?</h1>
+            <h1 class="title-top">BONITO?</h1>
+            <h1 class="title-top">NOTADO?</h1>
+            <h1 class="title-top">RESISTENTE?</h1>
+            <h1 class="title-top yellow-back">SHEIPADO?</h1>
+            <h1 class="title-top">...</h1>
+        </div>
+        <div class="col-11 flex-column mb-4 mobile">
+            <h1 class="m-0 mb-4 text-center"><span class="yellow">Você</span> quer ser mais <span
+                    class="yellow">FORTE?</span></h1>
+            <h1 class="m-0 text-center"><span class="yellow">NÓS</span> TEMOS A SOLUÇÃO</h1>
+        </div>
+        <div class="col-12 col-md-6 d-flex flex-column align-items-center">
+            <img class="img-book" src="assets/img/capa-book.png" />
+            <button class="d-flex justify-content-center align-items-start yellow-button" onclick="scrollToPayment()">Eu
+                quero pegar o
+                shape!!!</button>
+        </div>
+    </div>
+    <div class="col-12 col-md-8 d-flex flex-column align-items-center screen-2">
+        <div class="col-12 mb-3">
+            <h1 class="col-12 text-center">
+                Você já imaginou como seria ter o
+            </h1>
+            <h1 class="col-12 text-center yellow">
+                corpo que sempre sonhou ?
+            </h1>
+        </div>
+        <div class="col-12 d-flex align-items-center justify-content-around content">
+            <div class="col-12 col-md-5 box-img">
+                <img src="assets/img/shape-exe.png" />
+            </div>
+            <div class="col-9 col-md-4">
+                <p>
+                    Imagine-se com a <span class="yellow">definição muscular perfeita,</span> uma explosão de energia e
+                    a confiança que vem de se sentir
+                    incrível em sua própria pele. Pare de imaginar e <span class="yellow">comece a agir
+                        agora!</span><br />Apresentamos o e-Book definitivo
+                    que vai revolucionar sua jornada fitness. O guia Definitivo para <span class="yellow">Conquistar o
+                        Shape dos Sonhos!</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 d-flex flex-column align-items-center screen-3">
+        <div class="col-12 pt-5 pb-3 py-md-5 d-flex align-items-center justify-content-center box-title">
+            <div class="yellow-box"></div>
+            <h1 class="text-center">
+                Mude a sua vida para <span class="black-blue">SEMPRE!</span>
+            </h1>
+        </div>
+        <div class="col-10 d-flex flex-column flex-md-row align-items-center justify-content-around big-box">
+            <div class="d-flex flex-column align-items-center box">
+                <div class="d-flex align-items-center justify-content-around top">
+                    <svg width="45" height="46" viewBox="0 0 45 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_44_127)">
+                            <path
+                                d="M27.5893 21.5289C28.5568 21.4128 29.2665 20.6989 29.1746 19.934C29.1286 19.5526 28.8918 19.2306 28.5459 19.0184C29.4816 18.1032 29.9398 17.6658 29.9398 17.6658H26.9164C25.8061 17.6658 24.9059 18.566 24.9059 19.6763V22.6233C25.4005 22.1291 25.8571 21.6738 26.2773 21.2565C26.6278 21.4792 27.0944 21.5882 27.5893 21.5289Z"
+                                fill="white" />
+                            <path
+                                d="M15.8254 19.9342C15.7335 20.6986 16.4432 21.4125 17.4107 21.5291C17.9061 21.5884 18.3727 21.4797 18.7227 21.2567C19.1429 21.674 19.5995 22.1293 20.0941 22.6235V19.6765C20.0941 18.5662 19.1939 17.666 18.0836 17.666H15.0601C15.0601 17.666 15.5188 18.1029 16.4541 19.0186C16.1082 19.2307 15.8714 19.5528 15.8254 19.9342Z"
+                                fill="white" />
+                            <path
+                                d="M4.32883 12.3437C3.14415 14.995 2.64037 18.1095 2.83133 21.6009L2.8998 22.8569L4.59032 22.4513C4.58903 23.4889 4.65923 25.0031 4.96587 26.7275C5.29794 28.5948 5.84063 30.3275 6.57826 31.8764C7.51228 33.8372 8.76213 35.5077 10.2931 36.8406L11.2973 37.7149L11.8738 36.6075C12.3683 37.321 13.0388 38.2195 13.8696 39.1815C15.6403 41.2317 18.5097 43.9666 22.1238 45.3555L22.4997 45.5L22.8761 45.3555C26.4899 43.9669 29.3592 41.2317 31.1299 39.1815C31.9607 38.2195 32.6312 37.321 33.1258 36.6075L33.7022 37.7149L34.7064 36.8406C36.2374 35.5077 37.4872 33.8376 38.4212 31.8764C39.1589 30.327 39.7016 28.5948 40.0337 26.7275C40.3402 25.0032 40.4104 23.4885 40.4092 22.4513L42.0997 22.8569L42.1686 21.6009C42.3595 18.1095 41.8558 14.995 40.671 12.3433C39.7116 10.1958 38.3101 8.35363 36.5059 6.86779C35.2256 5.81347 33.9294 5.0929 32.8438 4.60915L35.8221 3.2925L34.1466 2.24359C32.2983 1.08693 30.0092 0.5 27.3425 0.5C25.0884 0.5 23.2133 0.926108 22.5002 1.11321C21.7867 0.926108 19.9116 0.5 17.6579 0.5C14.9916 0.5 12.7021 1.08693 10.8536 2.24359L9.17813 3.2925L12.1565 4.60915C11.0713 5.0929 9.77465 5.81347 8.49478 6.86779C6.68982 8.35402 5.28835 10.1961 4.32883 12.3437ZM4.88987 20.2224C4.88697 18.7039 5.03736 17.2791 5.33684 15.957C6.61169 15.9131 7.68862 16.2223 8.54579 16.8814C9.19745 17.3822 9.53204 17.9491 9.63522 18.1467C9.32021 19.6493 9.30649 20.7667 9.30604 20.8727L9.30391 21.2813L10.5095 22.6058C10.2947 22.6706 10.0712 22.7491 9.84151 22.8448C8.93925 23.2199 7.83018 23.9104 6.85521 25.1749C6.5791 22.897 6.73322 21.2307 6.7349 21.2124L6.88026 19.7449L4.88987 20.2224ZM14.7305 13.0037C16.5581 11.5158 19.1037 11.0826 22.2959 11.7163L22.5001 11.7568L22.7044 11.7163C25.8966 11.0826 28.4418 11.5158 30.2698 13.0037C32.9954 15.2227 33.4892 19.2319 33.5777 20.4926L29.989 24.4359C29.2317 23.2288 28.461 22.4438 28.3963 22.3787L26.9092 23.8583C26.9159 23.865 27.5839 24.5466 28.2225 25.5668C28.799 26.4865 29.4711 27.8776 29.4009 29.279C29.35 30.2979 28.9226 31.1943 28.0985 32.0055L27.5984 31.8213L22.8493 30.0715C22.9363 29.3835 23.1318 28.541 23.572 28.2302C24.3645 27.6708 25.7162 26.7853 23.572 26.6454C23.572 26.6454 23.0595 26.9253 22.4997 26.9253C21.9404 26.9253 21.4278 26.6454 21.4278 26.6454C19.2836 26.7853 20.6354 27.6709 21.4278 28.2302C21.8681 28.541 22.0636 29.3835 22.1505 30.0715L17.4018 31.8209L16.9018 32.0051C16.0797 31.196 15.6524 30.3017 15.5998 29.2861C15.4582 26.5563 18.066 23.8837 18.0923 23.857L17.3475 23.1184L18.0911 23.8582L16.6045 22.3786C16.5398 22.4438 15.769 23.2287 15.0117 24.4359L11.4231 20.4926C11.5112 19.2299 12.0057 15.2222 14.7305 13.0037ZM25.7898 34.7256C25.7643 34.7411 25.7225 34.7587 25.6223 34.7587C25.3821 34.7587 25.0199 34.6559 24.6364 34.5473C24.0512 34.3815 23.3227 34.1752 22.5002 34.1752C21.6777 34.1752 20.9492 34.3815 20.364 34.5473C19.9805 34.6559 19.6184 34.7587 19.3782 34.7587C19.2784 34.7587 19.2361 34.7412 19.2111 34.7256C19.1012 34.5694 19.0791 34.0038 19.1726 33.4036L22.5002 32.1776L25.8274 33.4036C25.9156 33.9742 25.9076 34.559 25.7898 34.7256ZM36.5136 31.005C35.9154 32.2541 35.1727 33.3626 34.298 34.3154L33.2579 32.3196L32.3071 34.0035C32.2971 34.021 31.2871 35.798 29.5126 37.8453C27.9678 39.6272 25.5204 41.9757 22.5003 43.2456C19.4801 41.9757 17.0323 39.6272 15.488 37.8453C13.7135 35.798 12.7034 34.021 12.6938 34.0038L11.7439 32.3154L10.7029 34.315C9.82772 33.3626 9.08545 32.2536 8.48725 31.0046C8.08748 30.1704 7.75167 29.2719 7.48136 28.3195C8.80219 24.9782 11.2003 24.4786 12.159 24.4176L14.0045 26.4456C13.6669 27.3491 13.4527 28.3479 13.5045 29.383C13.5938 31.1671 14.436 32.726 16.007 34.0168L16.4715 34.3981L17.0149 34.1981C17.0325 35.0314 17.2568 35.93 18.0133 36.4475C18.4093 36.7187 18.8684 36.8557 19.3784 36.8557C19.9102 36.8557 20.4319 36.7078 20.9362 36.5649C21.4441 36.4208 21.9696 36.2721 22.5005 36.2721C23.0315 36.2721 23.5565 36.4208 24.0649 36.5649C24.5695 36.7078 25.0913 36.8557 25.6226 36.8557C26.1322 36.8557 26.5918 36.7182 26.9877 36.4475C27.7442 35.93 27.9682 35.0315 27.9861 34.1981L28.5295 34.3981L28.994 34.0168C30.5651 32.726 31.4072 31.1671 31.4966 29.383C31.5484 28.3479 31.3341 27.3491 30.9965 26.4456L32.8395 24.4205C33.1908 24.4447 33.7423 24.5262 34.3542 24.781C35.7611 25.3663 36.8251 26.5563 37.5201 28.3191C37.2492 29.2719 36.9133 30.1704 36.5136 31.005ZM38.1242 19.747L38.2659 21.2111C38.2679 21.2307 38.4221 22.897 38.146 25.1749C37.171 23.91 36.0616 23.2199 35.1597 22.8448C34.93 22.7491 34.7065 22.6706 34.4918 22.6058L35.6974 21.2813L35.6952 20.8727C35.6949 20.7667 35.6811 19.6484 35.3657 18.1442C35.5578 17.7645 36.674 15.8647 39.6661 15.9591C39.9652 17.2808 40.1143 18.7052 40.1118 20.2228L38.1242 19.747ZM38.7563 13.1992C38.8541 13.4177 38.9459 13.6407 39.0333 13.8667C37.169 13.9565 35.8787 14.6508 35.0654 15.3053C34.9083 15.4314 34.7646 15.5601 34.6325 15.688C34.0302 14.1704 33.0857 12.596 31.6049 11.3862C31.5606 11.3499 31.5151 11.3148 31.47 11.2797C31.6951 10.4167 32.4111 8.89992 34.6877 8.1067C34.8489 8.22746 35.0106 8.3544 35.1719 8.48727C36.7245 9.76508 37.9305 11.3504 38.7563 13.1992ZM13.9624 3.11455C15.0593 2.7712 16.295 2.59782 17.658 2.59782C20.156 2.59782 22.1756 3.19892 22.1945 3.20478L22.5003 3.29714L22.8048 3.20523C22.8249 3.19898 24.8446 2.59789 27.3425 2.59789C28.7055 2.59789 29.9412 2.77127 31.0381 3.11461L26.4402 5.14764L29.7662 5.76961C29.7841 5.77296 30.9751 6.00437 32.5436 6.78638C31.2111 7.55622 30.4408 8.53661 30.0013 9.34535C29.8459 9.6315 29.7235 9.90929 29.627 10.1708C27.6441 9.28977 25.2576 9.10351 22.4998 9.62023C19.742 9.10351 17.3555 9.28938 15.3726 10.1708C15.2761 9.90967 15.1537 9.6315 14.9983 9.34535C14.5593 8.53751 13.7898 7.5579 12.4593 6.78844C14.0225 6.01152 15.2171 5.77296 15.2334 5.76961L18.5593 5.14764L13.9624 3.11455ZM9.75759 8.54537C9.94262 8.39079 10.1281 8.24504 10.3132 8.10638C11.6047 8.5529 12.5438 9.27644 13.1094 10.2639C13.3241 10.6382 13.4507 10.9957 13.5254 11.2827C13.482 11.317 13.4381 11.3508 13.3951 11.3859C11.9143 12.5956 10.9702 14.17 10.3674 15.6876C10.2354 15.5599 10.0917 15.4316 9.9347 15.305C9.12177 14.6508 7.83186 13.9566 5.96802 13.8668C6.04782 13.6596 6.1309 13.4549 6.21946 13.2539C7.03361 11.4101 8.22409 9.82607 9.75759 8.54537Z"
+                                fill="white" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_44_127">
+                                <rect width="45" height="45" fill="white" transform="translate(0 0.5)" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <h3 class="text-left m-0">Maior Confiança e Autoestima</h3>
+                </div>
+
+                <div>
+                    <p class="text-center">
+                        Ganhar músculos não é apenas sobre estética; é sobre desenvolver uma confiança interior que se
+                        reflete em todos os aspectos da sua vida. Sinta-se bem consigo mesmo e projete confiança em cada
+                        passo.
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex flex-column align-items-center box">
+                <div class="d-flex align-items-center justify-content-around top">
+                    <svg width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_44_102)">
+                            <path
+                                d="M0.947723 26.1659C1.31727 26.095 1.56 25.7377 1.48909 25.3682C1.47954 25.3191 0.584996 20.4264 3.72818 16.6382C3.885 16.4487 3.92727 16.1896 3.84136 15.9591C3.82363 15.9127 2.07136 11.215 4.31045 7.71184C5.77909 5.41411 8.65772 4.10229 12.8659 3.81184C13.02 3.80093 13.1659 3.7382 13.2791 3.6332C13.3009 3.61411 15.4336 1.67775 17.5527 1.54547C17.9291 1.52093 18.2141 1.19775 18.1909 0.822748C18.1677 0.447748 17.8241 0.140929 17.4682 0.184566C15.2495 0.323657 13.1645 1.94093 12.5427 2.46729C8.00181 2.8232 4.84636 4.33957 3.16227 6.97684C0.928632 10.4732 2.02772 14.7768 2.43818 16.0696C-0.823641 20.2941 0.109087 25.405 0.149996 25.6246C0.212723 25.9518 0.497723 26.1782 0.819541 26.1782C0.861814 26.1768 0.90545 26.1741 0.947723 26.1659Z"
+                                fill="white" />
+                            <path
+                                d="M11.3236 43.6056C11.4573 43.7461 11.6373 43.8184 11.8186 43.8184C11.9864 43.8184 12.1554 43.757 12.2864 43.6315C12.5604 43.3738 12.5727 42.9415 12.3136 42.6674C11.3141 41.6093 11.5132 38.1811 11.8841 36.1738C11.8909 36.0293 12.03 32.5697 10.7577 29.4374C9.87272 27.2584 9.76499 24.3402 9.76499 23.0638C9.77453 22.8402 9.77863 22.6138 9.7759 22.3847C9.77181 22.0152 9.4759 21.7165 9.10635 21.7097C8.75453 21.7097 8.42999 21.9906 8.41226 22.3602C8.4109 22.4011 8.39863 22.6574 8.39863 23.0665C8.19681 27.1929 5.83363 30.4206 5.80908 30.4534C5.58408 30.7561 5.64681 31.1829 5.94953 31.4065C6.2509 31.6343 6.67772 31.5702 6.90272 31.2674C6.97499 31.1734 8.00726 29.7688 8.81454 27.6047C8.97408 28.4052 9.19363 29.2097 9.49499 29.9515C10.6404 32.7729 10.5259 36.0184 10.5341 36.017C10.4236 36.5965 9.5209 41.6965 11.3236 43.6056Z"
+                                fill="white" />
+                            <path
+                                d="M41.8391 6.97555C40.1536 4.33828 36.9982 2.82191 32.4586 2.466C31.8355 1.93964 29.7518 0.322367 27.5332 0.181913C27.1827 0.13964 26.8336 0.443731 26.8105 0.820094C26.7859 1.19509 27.0723 1.51964 27.4486 1.54282C29.5582 1.67646 31.7018 3.61282 31.7223 3.63191C31.8355 3.73555 31.9814 3.79828 32.1355 3.80919C36.3396 4.09964 39.2168 5.41009 40.6868 7.70237C42.9246 11.1946 41.1777 15.9115 41.16 15.9578C41.0727 16.1869 41.1164 16.446 41.2732 16.6355C44.4027 20.4087 43.5218 25.3165 43.5123 25.3656C43.4427 25.7351 43.6855 26.0924 44.055 26.1633C44.0986 26.1715 44.1409 26.1756 44.1832 26.1756C44.5036 26.1756 44.7886 25.9478 44.8514 25.6219C44.8936 25.4024 45.825 20.2915 42.5632 16.0669C42.9736 14.7755 44.0727 10.4733 41.8391 6.97555Z"
+                                fill="white" />
+                            <path
+                                d="M36.1855 27.6047C36.9927 29.7688 38.025 31.172 38.0973 31.2674C38.3236 31.5702 38.7505 31.6343 39.0505 31.4065C39.3532 31.1829 39.4145 30.7547 39.1909 30.4534C39.165 30.4206 36.8032 27.1929 36.6014 23.0665C36.6014 22.6574 36.5891 22.4024 36.5877 22.3602C36.57 21.9906 36.2673 21.7124 35.8936 21.7097C35.5241 21.7165 35.2282 22.0165 35.2241 22.3847C35.2227 22.6165 35.2255 22.8456 35.235 23.072C35.235 24.3511 35.1286 27.2597 34.2423 29.4374C32.97 32.5711 33.1091 36.0293 33.1282 36.2706C33.4895 38.1811 33.69 41.6065 32.6877 42.6674C32.4286 42.9415 32.4409 43.3738 32.715 43.6315C32.8445 43.757 33.0123 43.8184 33.1814 43.8184C33.3627 43.8184 33.5427 43.7461 33.6764 43.6056C35.4791 41.6979 34.575 36.5924 34.4768 36.1138C34.4755 36.0824 34.3473 32.8015 35.5036 29.9515C35.8064 29.2097 36.0259 28.4052 36.1855 27.6047Z"
+                                fill="white" />
+                            <path
+                                d="M36.315 14.3679C35.9386 14.3679 35.6332 14.6734 35.6332 15.0497C35.6332 18.7875 32.5323 21.8297 28.7195 21.8297C26.52 21.8297 24.4991 20.8316 23.1777 19.0875C22.92 18.7493 22.35 18.7479 22.0909 19.0888C20.7695 20.8302 18.7486 21.8297 16.5491 21.8297C12.7377 21.8297 9.63546 18.7888 9.63546 15.0497C9.63546 14.6734 9.33 14.3679 8.95364 14.3679C8.57727 14.3679 8.27182 14.6734 8.27182 15.0497C8.27182 19.5402 11.985 23.1934 16.5491 23.1934C18.8945 23.1934 21.0695 22.2429 22.635 20.5588C24.2005 22.2416 26.3755 23.1934 28.7209 23.1934C33.285 23.1934 36.9982 19.5402 36.9982 15.0497C36.9968 14.6734 36.6927 14.3679 36.315 14.3679Z"
+                                fill="white" />
+                            <path
+                                d="M28.5477 7.57141C26.4068 8.13187 23.8255 9.94414 22.7727 10.731C20.2173 8.39505 16.8518 7.60005 16.7018 7.56596C16.3323 7.48278 15.9682 7.71051 15.8836 8.07732C15.7991 8.44551 16.0282 8.81096 16.395 8.89551C16.4305 8.90369 19.9173 9.72732 22.2314 12.1055C22.365 12.2432 22.5423 12.3114 22.7195 12.3114C22.8695 12.3114 23.0195 12.2623 23.145 12.1628C23.1777 12.1355 26.4641 9.52551 28.8914 8.89005C29.2555 8.79596 29.4736 8.42232 29.3782 8.05823C29.2841 7.69414 28.9132 7.47187 28.5477 7.57141Z"
+                                fill="white" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_44_102">
+                                <rect width="45" height="43.6364" fill="white" transform="translate(0 0.181885)" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <h3 class="text-left m-0">Transforme Seu Corpo, Transforme Sua Vida</h3>
+                </div>
+
+                <div>
+                    <p class="text-center">
+                        Ao comprar este guia, você está investindo em uma jornada de transformação física que não apenas
+                        moldará seu corpo, mas também terá impacto positivo em diversos aspectos da sua vida.
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex flex-column align-items-center box">
+                <div class="d-flex align-items-center justify-content-around top">
+                    <svg width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M37.0909 22C37.0909 27.6076 35.4156 32.6545 32.7438 36.2817C30.0717 39.9093 26.4414 42.0765 22.5 42.0765C18.5586 42.0765 14.9282 39.9093 12.2562 36.2817C9.58436 32.6545 7.90909 27.6076 7.90909 22C7.90909 16.3924 9.58436 11.3455 12.2562 7.71832C14.9282 4.0908 18.5586 1.92358 22.5 1.92358C26.4414 1.92358 30.0717 4.0908 32.7438 7.71832C35.4156 11.3455 37.0909 16.3924 37.0909 22Z"
+                            stroke="white" stroke-width="1.5" />
+                        <path
+                            d="M34.0227 21.7429C34.0227 26.2003 32.6909 30.2059 30.5743 33.0794C28.4574 35.9531 25.5941 37.6541 22.5 37.6541C19.4058 37.6541 16.5425 35.9531 14.4257 33.0794C12.3091 30.2059 10.9773 26.2003 10.9773 21.7429C10.9773 17.2856 12.3091 13.28 14.4257 10.4065C16.5425 7.53279 19.4058 5.83179 22.5 5.83179C25.5941 5.83179 28.4574 7.53279 30.5743 10.4065C32.6909 13.28 34.0227 17.2856 34.0227 21.7429Z"
+                            stroke="white" stroke-width="1.5" />
+                        <line x1="0.75" y1="-0.75" x2="10.7876" y2="-0.75"
+                            transform="matrix(0.531858 -0.846834 0.867581 0.497296 17.3864 25.5996)" stroke="white"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <line x1="0.75" y1="-0.75" x2="10.7876" y2="-0.75"
+                            transform="matrix(0.531858 -0.846834 0.867581 0.497296 16.3636 19.7373)" stroke="white"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <h3 class="text-left m-0">Melhore Sua Postura e Autoimagem</h3>
+                </div>
+
+                <div>
+                    <p class="text-center">
+                        A musculação não apenas transforma sua estrutura corporal, mas também aprimora sua postura,
+                        fazendo com que você se sinta mais alto, mais forte e mais confiante em sua própria pele.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-7 text-bottom">
+            <h2 class="text-center">
+                Este ebook vai fazer você ter todo o conhecimento de como adquirir o <span class="yellow">SHAPE
+                    LENDARIO</span>, vai te deixar mais
+                FORTE, mais CONFIANTE, mais FELIZ, e com certeza SHEIPADO.
+            </h2>
+        </div>
+    </div>
+    <div class="col-12 d-flex flex-column align-items-center screen-4">
+        <div class="col-12 background">
+            <svg class="desktop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 782" fill="none">
+                <path d="M0 0L718 110.792L1440 0V782H0V0Z" fill="#AC8A00" />
+            </svg>
+            <svg class="mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 779" fill="none">
+                <path d="M0 0L216.896 110.367L435 0V779H0V0Z" fill="#AC8A00" />
+            </svg>
+        </div>
+        <div class="col-11 d-flex justify-content-between">
+            <h1 class="col-5 col-md-12 text-md-center m-0">GUIA TEÓRICO</h1>
+            <img class="col-5 mobile" src="assets/img/teorico.png" />
+        </div>
+        <div class="col-10 d-flex flex-column flex-md-row align-items-start justify-content-around">
+            <div class="col-12 col-md-6 mt-3 d-flex flex-column flex-md-row align-items-center">
+                <p class="col-10 col-md-12 m-0">
+                    Mergulhe neste guia essencial destinado a aqueles que enfrentam o desafio comum de desenvolver massa
+                    muscular, particularmente os ectomorfos com metabolismos acelerados. Desvende estratégias
+                    específicas que transcendem as barreiras genéticas, oferecendo abordagens práticas, técnicas de
+                    treino e princípios nutricionais meticulosamente elaborados para potencializar a hipertrofia
+                    muscular. Este livro é a chave para equipar os ectomorfos com as ferramentas necessárias,
+                    capacitando-os a transformar seus corpos e alcançar resultados duradouros. Embarque nesta jornada de
+                    crescimento físico e superação de limitações, preparando-se para uma transformação notável. Adquira
+                    agora e inicie sua trajetória rumo a um corpo mais robusto e saudável.
+                </p>
+            </div>
+            <div class="col-12 col-md-5 d-flex flex-column align-items-center justify-content-between">
+                <img class="desktop" src="assets/img/teorico.png" />
+                <button class="d-flex justify-content-center align-items-center mt-4 mt-md-5 green-button"
+                    onclick="scrollToPayment()">Quero o
+                    meu!!!</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 d-flex flex-column align-items-center screen-5">
+        <div class="col-11 d-flex justify-content-between">
+            <h1 class="col-5 col-md-12 text-md-center m-0">GUIA PRÁTICO</h1>
+            <img class="col-5 mobile" src="assets/img/pratico.png" />
+        </div>
+        <div class="col-10 d-flex flex-column-reverse flex-md-row align-items-start justify-content-around">
+            <div class="col-12 col-md-5 d-flex flex-column align-items-center justify-content-between">
+                <img class="desktop" src="assets/img/pratico.png" />
+                <button class="d-flex justify-content-center align-items-center mt-5 green-button"
+                    onclick="scrollToPayment()">Quero o
+                    meu!!!</button>
+            </div>
+            <div class="col-12 col-md-6 mt-4 mt-md-3 d-flex flex-column flex-md-row align-items-center">
+                <p class="col-10 col-md-12 m-0">
+                    Explore uma jornada de transformação física intensa para ectomorfos apaixonados pela academia com
+                    nosso guia de 12 meses. Cada capítulo oferece estratégias, treinos e orientações nutricionais
+                    detalhadas para maximizar ganhos musculares. Siga nosso programa mensal para uma transformação
+                    gradual, focada e progressiva. Desafios emocionantes, conquistas gratificantes e uma notável
+                    transformação física aguardam. Este é seu convite para um ano transformador e único em sua jornada
+                    de condicionamento físico. Vamos conquistar juntos!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 d-flex flex-column align-items-center screen-6">
+        <div class="col-12 d-flex flex-column flex-md-row align-items-end justify-content-between box-buys">
+            <div class="d-flex flex-column align-items-center box-buy mb-3">
+                <div>
+                    <h3 class="m-0 mb-2 text-center">
+                        <span class="yellow">GUIA</span> TEÓRICO
+                    </h3>
+                    <div>
+                        <p class="m-0 text-center">Desvende os princípios da hipertrofia</p>
+                        <p class="m-0 text-center">Dicas para montar uma dieta</p>
+                        <p class="m-0 text-center">Guia TEÓRICO para você atingir o shape</p>
+                    </div>
+                </div>
+                <div>
+                    <img class="ebook-img" src="assets/img/ebook-teoria.png" />
+                </div>
+                <div class="values d-flex flex-column align-items-center">
+                    <h4 class="m-0 mb-1 text-center">10X de R$4,99</h4>
+                    <p class="m-0 text-center value-text">ou 49,90 à vista</p>
+                </div>
+                <div>
+                    <a href='https://pay.kiwify.com.br/uCK6coH'>
+                        <button class="d-flex align-items-center justify-content-center yellow-button">
+                            Eu quero a parte teórica
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex flex-column align-items-center box-buy mb-3 mb-md-1" id="buy-all">
+                <div>
+                    <h3 class="m-0 mb-2 text-center">
+                        <span class="yellow">MATERIAL</span> COMPLETO
+                    </h3>
+                    <div>
+                        <p class="m-0 text-center">Guia TEÓRICO para você atingir o shape</p>
+                        <p class="m-0 text-center">Guia PRÁTICO para você atingir o shape</p>
+                        <p class="m-0 text-center">Tudo que você precisa para crescer</p>
+                        <p class="m-0 text-center">Bônus Incríveis</p>
+                    </div>
+                </div>
+                <div>
+                    <img class="ebook-img" src="assets/img/ebooks-all.png" />
+                </div>
+                <div class="values d-flex flex-column align-items-center">
+                    <div class="box-old d-flex mb-3">
+                        <div class="red-line"></div>
+                        <p class="old-price text-center m-0">De R$99,80</p>
+                    </div>
+                    <p class="m-0 mb-1 text-center only-text">por apenas:</p>
+                    <h4 class="m-0 mb-1 text-center">10X de R$6,99</h4>
+                    <p class="m-0 text-center value-text">ou 69,90 à vista</p>
+                </div>
+                <div>
+                    <a href='https://pay.kiwify.com.br/c7i0q0c'>
+                        <button class="d-flex align-items-center justify-content-center yellow-button">
+                            Sim, eu quero pegar o shape
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex flex-column align-items-center box-buy">
+                <div>
+                    <h3 class="m-0 mb-2 text-center">
+                        <span class="yellow">GUIA</span> PRÁTICO
+                    </h3>
+                    <div>
+                        <p class="m-0 text-center">Rotina de treino pronta para uso</p>
+                        <p class="m-0 text-center">Estratégias de hipertrofia na prática</p>
+                        <p class="m-0 text-center">Guia PRÁTICO para você atingir o shape</p>
+                    </div>
+                </div>
+                <div>
+                    <img class="ebook-img" src="assets/img/ebook-pratica.png" />
+                </div>
+                <div class="values d-flex flex-column align-items-center">
+                    <h4 class="m-0 mb-1 text-center">10X de R$4,99</h4>
+                    <p class="m-0 text-center value-text">ou 49,90 à vista</p>
+                </div>
+                <div>
+                    <a href='https://pay.kiwify.com.br/TckMQnN'>
+                        <button class="d-flex align-items-center justify-content-center yellow-button">
+                            Eu quero a parte prática
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="mt-5 pt-2">
+            <img class="buy-img" src="assets/img/compra-segura.webp" />
+        </div>
+    </div>
+    <div class="col-10 col-md-7 d-flex flex-column align-items-start screen-7">
+        <h3 class="m-0 ms-2 ms-md-4">DÚVIDAS FREQUENTES</h3>
+        <div class="col-12 d-flex flex-column align-items-center justify-content-start box-questions">
+            <div class="col-12 question">
+                <div class="col-12 d-flex align-items-center justify-content-between">
+                    <label class="col-12 d-flex align-items-center justify-content-between">
+                        <input type="checkbox" />
+                        <h4 class="m-0">Em quanto tempo terei acesso ao guia?</h4>
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_23_46)">
+                                <path d="M21.25 11.875L15 18.125L8.75 11.875" stroke="white" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_23_46">
+                                    <rect width="30" height="30" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </label>
+                </div>
+                <div class="content">
+                    <p>
+                        Assim que o pagamento da sua inscrição for confirmado, você receberá um e-mail com o seu acesso.
+                        Pagamentos realizados via cartão de crédito e PIX são confirmados na hora e pagamentos via
+                        boleto demoram até 72h.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 question">
+                <div class="col-12 d-flex align-items-center justify-content-between">
+                    <label class="col-12 d-flex align-items-center justify-content-between">
+                        <input type="checkbox" />
+                        <h4 class="m-0">Quais são os metodos de pagamento?</h4>
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_23_46)">
+                                <path d="M21.25 11.875L15 18.125L8.75 11.875" stroke="white" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_23_46">
+                                    <rect width="30" height="30" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </label>
+                </div>
+                <div class="content">
+                    <p>
+                        Você poderá fazer o pagamento através do seu cartão de crédito, boleto ou pix.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 question">
+                <div class="col-12 d-flex align-items-center justify-content-between">
+                    <label class="col-12 d-flex align-items-center justify-content-between">
+                        <input type="checkbox" />
+                        <h4 class="m-0">Não sei nada sobre academia, esse guia é para mim?</h4>
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_23_46)">
+                                <path d="M21.25 11.875L15 18.125L8.75 11.875" stroke="white" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_23_46">
+                                    <rect width="30" height="30" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </label>
+                </div>
+                <div class="content">
+                    <p>
+                        Sim. Todo o conteúdo foi desenvolvido para te tirar do zero e dar todas as ferramentas que você
+                        precisa para ter resultados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 d-flex flex-column align-items-center justify-content-end footer">
+        <p class="m-0">
+            Política de privacidade - Termos e condições
+        </p>
+        <p class="m-0">
+            © Todos os direitos reservados
+        </p>
+    </div>
+</body>
+
+</html>
